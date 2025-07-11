@@ -91,21 +91,24 @@ body{
 
 
 .content-subtitle {
-  color: #0000007f;
+  color: #0000007c;
   font-size: 16px;
   margin-bottom: 20px;
 }
 
 /* Button Hover */
 .signup-btn:hover {
- background-color: rgb(8, 8, 141);
+  background-color: rgb(8, 8, 141);
   font-size: medium;
+  color: lightgoldenrodyellow;
 }
 
 .focus-btn:hover {
   background-color: rgb(8, 8, 141);
   font-size: medium;
+  color: lightgoldenrodyellow;
 }
+
 
 /* Mini bg image */
 .wc-mini img {
@@ -284,5 +287,37 @@ body{
 .contact-form button:hover {
   background-color: rgb(8, 8, 141);
   font-size: medium;
+  color: lightgoldenrodyellow;
 }
+
+
+/* Footer Section */
+
+
+.footer {
+  text-align: center;
+  padding: 60px 20px 150px 20px;
+  background-color: white;
+  
+  
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #777474;
+  text-decoration: none;
+  font-weight: 550;
+  
+}
+
+.footer-links a:hover {
+  color: #0d00ff;
+}
+
 
