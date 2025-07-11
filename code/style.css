@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+    background-color: #f8faff;
+}
 /* Font */
 
 .raleway-normal {
@@ -96,11 +98,13 @@
 
 /* Button Hover */
 .signup-btn:hover {
-  background-color: purple;
+ background-color: rgb(8, 8, 141);
+  font-size: medium;
 }
 
 .focus-btn:hover {
-  background-color: purple;
+  background-color: rgb(8, 8, 141);
+  font-size: medium;
 }
 
 /* Mini bg image */
@@ -151,7 +155,6 @@
   margin-bottom: 130px;
 }
 
-
 /* Cards */
 .feedback-cards {
   display: flex;
@@ -164,7 +167,7 @@
   background: #ffffff;
   padding: 20px;
   border-radius: 15px;
-  width: 300px;
+  width: 325px;
   box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.136);
   text-align: left;
 }
@@ -210,3 +213,76 @@
   font-size: 13px;
   color: rgba(0, 0, 0, 0.69);
 }
+
+
+/* contact form */
+.touch-section{
+    margin-bottom: 130px;
+    
+    
+}
+
+.touch-container {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #f8faff;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+
+.contact-text {
+  margin-bottom: 20px;
+}
+
+.contact-text h2 {
+
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  line-height: 1.4;
+}
+
+.contact-form {
+  min-width: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #504848;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px 16px;
+  font-size: 14px;
+  border: 1px solid #b7b4b4;
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #4e47ff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.contact-form button:hover {
+  background-color: rgb(8, 8, 141);
+  font-size: medium;
+}
+
