@@ -24,6 +24,7 @@
      align-items: center;
      text-align: center;
 
+
  }
 
   .banner-title {
@@ -89,16 +90,15 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     gap: 220px;
-     padding: 80px 40px;
+     gap: 240px;
      max-width: 1140px;
      margin: auto;
      margin-top: 135px;
-     margin-bottom: 135px;
+     margin-bottom: 135px; 
  }
 
  .content {
-     max-width: 517px;
+     max-width: 500px;
  }
 
  .content-title {
@@ -130,3 +130,42 @@
      border-radius: 48px;
 
  }
+
+ /* User SECTION */
+
+ .user-section {
+  background-color: #cbcbf9;
+  padding: 50px 0;
+  border-radius: 30px;
+  text-align: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+/* sub tag */
+.user-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.764);
+  margin-bottom: 35px;
+}
+
+
+
+.user-box h3 {
+  font-size: 45px;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+
+.user-box p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.616);
+}
