@@ -16,7 +16,7 @@ body{
 /* banner */
 
 .banner {
-  background: url("../Assets/Hero-bg.png");
+  background: url("./Assets/Hero-bg.png");
   height: 700px;
   display: flex;
   flex-direction: column;
